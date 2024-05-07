@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <h1 class="calculator__title">Simple Calculator</h1>
+
+
+        <form class="calculator__form" action="/add" method="get">
+            <input type="number" class="calculator__input" name="a" required placeholder="Enter first number">
+            <input class="calculator__input" name="b" required placeholder="Enter second number">
+            <button class="calculator__button" type="submit">Add</button>
+        </form>
+
+        <form class="calculator__form" action="/subtract" method="get">
+            <input type="number" class="calculator__input" name="a" required placeholder="Enter first number">
+            <input type="number" class="calculator__input" name="b" required placeholder="Enter second number">
+            <button class="calculator__button" type="submit">Subtract</button>
+        </form>
+
+        <form class="calculator__form" action="/multiply" method="get">
+            <input type="number" class="calculator__input" name="a" required placeholder="Enter first number">
+            <input type="number" class="calculator__input" name="b" required placeholder="Enter second number">
+            <button class="calculator__button" type="submit">Multiply</button>
+        </form>
+
+        <form class="calculator__form" action="/divide" method="get">
+            <input type="number" class="calculator__input" name="a" required placeholder="Enter first number">
+            <input type="number" class="calculator__input" name="b" required placeholder="Enter second number">
+            <button class="calculator__button" type="submit">Divide</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
